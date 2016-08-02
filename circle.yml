@@ -2,7 +2,7 @@
 machine:
   # 安裝 eb 需要 python
   python:
-    version: 2.7
+    version: 3.4
   services:
     - docker
 

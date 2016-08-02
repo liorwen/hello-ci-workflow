@@ -1,7 +1,7 @@
 # circle.yml
 machine:
   node:
-    version: 6.3.1
+    version: 3.10.3
 
 test:
   override:

@@ -2,14 +2,14 @@
 machine:
   # 安裝 eb 需要 python
   python:
-    version: 3.4.
+    version: 2.7.10
   services:
     - docker
 
 dependencies:
   pre:
     # 安裝 eb
-    - sudo pip install --upgrade awsebcli
+    - sudo pip install awsebcli
   override:
     - docker build -t hello-ci-workflow .
 
